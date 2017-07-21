@@ -1,0 +1,72 @@
+.hidden {
+    display: none !important;
+}
+
+.date-range-form {
+    margin: 10px auto;
+}
+
+.reports-wrapper .bulkactions {
+    display: none;
+}
+
+.stats-overview {
+    margin: 20px auto;
+}
+
+.stats-section {
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+}
+
+.stats-header {
+    border: 1px solid #e5e5e5;
+    margin: -1px;
+    padding: 10px;
+}
+
+.stats-header h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.stats-footer {
+    border: 1px solid #e5e5e5;
+    margin: -1px;
+    padding: 10px;
+}
+
+.stats-chart-wrapper {
+    padding: 20px;
+}
+
+.form-inline .form-control,
+.form-inline .control-group {
+    margin: 2px;
+    text-align: center;
+    width: 100%;
+}
+
+@media(min-width: 767px) {
+
+    .form-inline {
+        display: table;
+    }
+
+    .form-inline .form-control,
+    .form-inline .control-group {
+        display: table-cell;
+        vertical-align: middle;
+        width: auto;
+    }
+}
+
+.flot-y1-axis .flot-tick-label {
+    color: #EDC240;
+}
+
+.flot-y2-axis .flot-tick-label {
+    color: #AFD8F8;
+}
